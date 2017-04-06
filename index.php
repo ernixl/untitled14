@@ -26,7 +26,7 @@ echo $q;
 ?>
 <p>
     <?php
-        $modules = array("Web Dev","Programming", "Professional
+        $modules = Array("Web Dev","Programming", "Professional
 Skillz");
         echo $modules;
 ?>
