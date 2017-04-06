@@ -28,7 +28,7 @@ echo $q;
     <?php
         $modules = Array("Web Dev","Programming", "Professional
 Skillz");
-        echo $modules[1]
+        echo $modules[0]
 ?>
 </p>
 </body>
