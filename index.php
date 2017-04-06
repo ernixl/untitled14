@@ -24,11 +24,12 @@ echo $p;
 echo "<br>";
 echo $q;
 ?>
-
-<?php
-$modules = array("Web Dev","Programming", "Professional
+<p>
+    <?php
+        $modules = array("Web Dev","Programming", "Professional
 Skillz");
-echo $modules
+        echo $modules
 ?>
+</p>
 </body>
 </html>
