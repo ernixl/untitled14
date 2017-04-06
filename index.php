@@ -7,14 +7,22 @@
 <body>
 <h1>Here is a webpage containing php</h1>
 <?php
-$x = 5;
-$y = 10;
-$z = $x + $y;
-echo "
- <p>Variable x is set as {$x}</p>
- <p>Variable y is set as {$y}</p>
- <p>x + y is {$z}</p>
- ";
+    $x = 5;
+    $y = 10;
+    $z = $x + $y;
+    echo "
+    <p>Variable x is set as {$x}</p>
+    <p>Variable y is set as {$y}</p>
+    <p>x + y is {$z}</p>
+    ";
+?>
+
+<?php
+$p = "helloworld";
+$q = "hello world";
+echo $p;
+echo "<br>";
+echo $q;
 ?>
 </body>
 </html>
