@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing hp</h1>
+<h1>Here is a webpage containing php</h1>
 <?php
     $x = 5;
     $y = 10;
