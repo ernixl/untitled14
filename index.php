@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php</h1>
+<h1>Here is a webpage containing phpextra</h1>
 <?php
     $x = 5;
     $y = 10;
@@ -23,6 +23,12 @@ $q = "hello world";
 echo $p;
 echo "<br>";
 echo $q;
+?>
+
+<?php
+$modules = array("Web Dev","Programming", "Professional
+Skillz");
+echo $modules
 ?>
 </body>
 </html>
