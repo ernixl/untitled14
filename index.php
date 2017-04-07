@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing phpextra not</h1>
+<h1>Here is a webpage containing phpextra not me</h1>
 <p>
 <?php
     $x = 5;
@@ -35,11 +35,8 @@ Skillz");
 ?>
 </p>
 <p>
+<form action="submitform.php" method="post"></form>
 <?php
-    $LOCATION = "MYPAGE.PHP?USERNAME=MIKE";
-    HEADER($LOCATION);
-
-
 
 ?>
 
