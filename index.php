@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php not</h1>
+<h1>Here is a webpage containing php</h1>
 <p>
     <?php
     $x = 5;
@@ -49,7 +49,7 @@ Skillz");
     echo $username;
     ?>
 </p>
-<A HREF=“MYPAGE.PHP>CLICK ME</A>
+<A HREF=“randompage.PHP>CLICK ME</A>
 
 </body>
 </html>
