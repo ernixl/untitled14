@@ -35,8 +35,8 @@ Skillz");
 ?>
 </p>
 <p>
-<form action="submitform.php" method="post">
-    <input type="text" placeholder="First Name" name="firstname">
+<form>
+    <input type="text" placeholder="First Named" name="firstname">
 
 </form>
 <?php
