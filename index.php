@@ -35,12 +35,13 @@ Skillz");
 ?>
 </p>
 <p>
-    $LOCATION = MYPAGE.PHP?USERNAME=MIKE;
+<?php
+    $LOCATION = "MYPAGE.PHP?USERNAME=MIKE";
     HEADER($LOCATION);
 
 
 
-
+?>
 
 </p>
 </body>
