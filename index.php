@@ -43,6 +43,6 @@ Skillz");
 
 ?>
 
-</p>
+
 </body>
 </html>
