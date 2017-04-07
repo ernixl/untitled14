@@ -10,6 +10,7 @@
     $lastname = $_POST["lastname"];
 
     if ($firstname=="ernest" and $lastname =="brai")
-    $student = $_GET ["randompage.php"];
+    echo "hello {$firstname} {$lastname}! how are you today";
+
 
     else echo "wrong user";
