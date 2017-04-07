@@ -9,4 +9,4 @@
     $firstname = $_POST["firstname"];
     $lastname = $_POST["lastname"];
 
-    echo "hello {$firstname} {$lastname}";
+    echo "hello {$firstname} {$lastname}! how are you today";
