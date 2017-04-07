@@ -41,9 +41,10 @@ Skillz");
     <input type="submit" value="Go">
 
     <?php
+    echo "<br>";
     $firstname = $_POST["firstname"];
     $lastname = $_POST["lastname"];
-    echo "<br>";
+
     echo "hello {$firstname} {$lastname}";
     ?>
 
