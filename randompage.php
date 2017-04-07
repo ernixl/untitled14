@@ -8,3 +8,6 @@
 $username = $_GET["Username"];
 
 echo $username;
+
+$LOCATION = "randompage.PHP?USERNAME=MIKE";
+HEADER($LOCATION);
