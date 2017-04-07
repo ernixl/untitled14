@@ -35,7 +35,10 @@ Skillz");
 ?>
 </p>
 <p>
-<form action="submitform.php" method="post"></form>
+<form action="submitform.php" method="post">
+    <input type="text" placeholder="First Name" name="firstname">
+
+</form>
 <?php
 
 ?>
