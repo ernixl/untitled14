@@ -6,6 +6,7 @@
 </head>
 <body>
 <h1>Here is a webpage containing phpextra</h1>
+<p>
 <?php
     $x = 5;
     $y = 10;
@@ -16,7 +17,8 @@
     <p>x + y is {$z}</p>
     ";
 ?>
-
+</p>
+<p>
 <?php
 $p = "helloworld";
 $q = "hello world";
@@ -24,6 +26,7 @@ echo $p;
 echo "<br>";
 echo $q;
 ?>
+</p>
 <p>
     <?php
         $modules = Array("Web Dev","Programming", "Professional
