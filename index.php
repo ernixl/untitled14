@@ -44,6 +44,9 @@ Skillz");
     <?
     $LOCATION = "randompage.PHP?USERNAME=MIKE";
     HEADER($LOCATION);
+    $username = $_GET["Username"];
+
+    echo $username;
     ?>
 </p>
 
