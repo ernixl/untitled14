@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php and not me</h1>
+<h1>Here is a webpage containing php not me</h1>
 <p>
     <?php
     $x = 5;
