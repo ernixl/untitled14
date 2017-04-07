@@ -34,15 +34,18 @@ Skillz");
     echo $modules[0]
     ?>
 </p>
-<p>
+
 <form action="submitform.php" method="post">
     <input type="text" placeholder="First Name" name="firstname">
     <input type="text" placeholder="Last Name" name="lastname">
     <input type="submit" value="Go">
-
-
-
 </form>
+<p>
+    <?
+    $LOCATION = "MYPAGE.PHP?USERNAME=MIKE";
+    HEADER($LOCATION);
+    ?>
+</p>
 
 
 </body>
