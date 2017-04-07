@@ -13,4 +13,4 @@
     echo "welcome {$firstname} {$lastname}! click <A HREF=randompage.php>here</A>to continue";
 
 
-    else echo "wrong user";
+    else echo "wrong login credentials please check your login details and try again";
