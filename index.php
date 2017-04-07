@@ -49,7 +49,7 @@ Skillz");
     echo $username;
     ?>
 </p>
-<A HREF=“randompage.php>CLICK ME</A>
+<A HREF=“submitform.php>CLICK ME</A>
 
 </body>
 </html>
