@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing phpextra</h1>
+<h1>Here is a webpage containing phpextra not</h1>
 <p>
 <?php
     $x = 5;
@@ -33,6 +33,15 @@ echo $q;
 Skillz");
         echo $modules[0]
 ?>
+</p>
+<p>
+    $LOCATION = MYPAGE.PHP?USERNAME=MIKE;
+    HEADER($LOCATION);
+
+
+
+
+
 </p>
 </body>
 </html>
