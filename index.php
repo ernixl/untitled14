@@ -35,14 +35,17 @@ Skillz");
 ?>
 </p>
 <p>
-<form>
+<form action="submitform.php" method="post">
     <input type="text" placeholder="First Name" name="firstname">
-    <input type="text" placeholder="Last Name" name="lastname">
+    <input type="text" placeholder="Last Namer" name="lastname">
     <input type="submit" value="Go">
 
 </form>
 <?php
+$firstname = $_POST["firstname"];
+$lastname = $_POST["lastname"];
 
+echo "hello {$firstname} {$lastname}";
 ?>
 
 
