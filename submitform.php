@@ -9,4 +9,7 @@
     $firstname = $_POST["firstname"];
     $lastname = $_POST["lastname"];
 
+    if ($firstname=="ernest" and $lastname =="brai")
     echo "hello {$firstname} {$lastname}! how are you today";
+
+    else echo "wrong user";

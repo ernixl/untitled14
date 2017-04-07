@@ -40,16 +40,7 @@ Skillz");
     <input type="text" placeholder="Last Name" name="lastname">
     <input type="submit" value="Go">
 </form>
-<p>
-    <?
-    $LOCATION = "randompage.PHP?USERNAME=MIKE";
-    HEADER($LOCATION);
-    $username = $_GET["Username"];
 
-    echo $username;
-    ?>
-</p>
-<A HREF=“submitform.php>CLICK ME</A>
 
 </body>
 </html>
