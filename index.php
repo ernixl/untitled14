@@ -49,7 +49,7 @@ Skillz");
     echo $username;
     ?>
 </p>
-<A HREF=“MYPAGE.PHP?USERNAME=MIKE>CLICK ME</A>
+<A HREF=“MYPAGE.PHP>CLICK ME</A>
 
 </body>
 </html>
