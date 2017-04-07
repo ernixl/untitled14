@@ -7,7 +7,7 @@
 <body>
 <h1>Here is a webpage containing phpextra not me</h1>
 <p>
-<?php
+    <?php
     $x = 5;
     $y = 10;
     $z = $x + $y;
@@ -16,23 +16,23 @@
     <p>Variable y is set as {$y}</p>
     <p>x + y is {$z}</p>
     ";
-?>
-</p>
-<p>
-<?php
-$p = "helloworld";
-$q = "hello world";
-echo $p;
-echo "<br>";
-echo $q;
-?>
+    ?>
 </p>
 <p>
     <?php
-        $modules = Array("Web Dev","Programming", "Professional
+    $p = "helloworld";
+    $q = "hello world";
+    echo $p;
+    echo "<br>";
+    echo $q;
+    ?>
+</p>
+<p>
+    <?php
+    $modules = Array("Web Dev", "Programming", "Professional
 Skillz");
-        echo $modules[0]
-?>
+    echo $modules[0]
+    ?>
 </p>
 <p>
 <form action="submitform.php" method="post">
@@ -49,7 +49,6 @@ Skillz");
     ?>
 
 </form>
-
 
 
 </body>
