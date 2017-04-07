@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing phpextra and not me</h1>
+<h1>Here is a webpage containing php and not me</h1>
 <p>
     <?php
     $x = 5;
@@ -42,7 +42,7 @@ Skillz");
 </form>
 <p>
     <?
-    $LOCATION = "MYPAGE.PHP?USERNAME=MIKE";
+    $LOCATION = "randompage.PHP?USERNAME=MIKE";
     HEADER($LOCATION);
     ?>
 </p>
