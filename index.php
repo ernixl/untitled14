@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php nnn</h1>
+<h1>Here is a webpage containing php n</h1>
 <p>
     <?php
     $x = 5;
@@ -35,7 +35,7 @@ Skillz");
     ?>
 </p>
 
-<form if ($firstname=="ernest" and $lastname =="brai" action="submitform.php") method="post">
+<form action="submitform.php" method="post">
     <input type="text" placeholder="First Name" name="firstname">
     <input type="text" placeholder="Last Name" name="lastname">
     <input type="submit" value="Go">

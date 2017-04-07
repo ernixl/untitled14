@@ -10,7 +10,7 @@
     $lastname = $_POST["lastname"];
 
     if ($firstname=="ernest" and $lastname =="brai")
-    echo "hello {$firstname} {$lastname}! how are you today";
+    echo "welcome {$firstname} {$lastname}! click <A HREF=“randompage.php>here</A>to continue";
 
 
     else echo "wrong user";
