@@ -73,7 +73,7 @@ Skillz");
 
 <p>
     <?php
-    for ($i = 1; $i<=31 ; $i++) {
+    for ($i = 1; $i <= 31; $i++) {
         if ($i = 1 != 0) echo "$i no products are available<br>";
         elseif ($i % 2 != 0) echo "$i specs are available<br>";
         elseif ($i % 3 != 0) echo "$i mugs are available<br>";
