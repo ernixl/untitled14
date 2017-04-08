@@ -91,11 +91,10 @@ Skillz");
 </P>
 <p>
     <?php
-    for($i = 1; $i < 10; $i++)
-    {
-    echo "<p>$i Hello!</p>";
-}
-?>
+    for ($i = 0; $i < 31; $i+2) {
+        echo "<p>$i Hello!</p>";
+    }
+    ?>
 </p>
 </body>
 </html>
