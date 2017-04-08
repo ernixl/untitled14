@@ -90,25 +90,6 @@ Skillz");
     $sr = 1;
     $n = 1;
 
-    while ($i <= 31) {
-        $v = (rand(0,2));
-        if ($v == 0) {
-            while ($s <= 7){
-                echo "$i specs<br>";
-                $i++;
-                $s++;}}
-
-        elseif ($v == 1) {while($m <= 7)
-            {echo "$i mugs<br>";
-                $i++;
-                $m++;
-            }}
-        elseif ($v == 2) {while($sr <= 7)
-            {echo "$i rolls<br>";
-                $i++;
-                $sr++;
-            }} else echo "cut";$i++;
-    }
 
     ?>
 </p>
