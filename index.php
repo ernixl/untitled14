@@ -91,7 +91,7 @@ Skillz");
     $n = 1;
 
     while ($i <= 31) {
-        $v = (rand(0, 2));
+        $v = (rand(0,2));
         if ($v == 0) {
             do {
                 echo "$i specs<br>";
