@@ -107,7 +107,7 @@ Skillz");
             {echo "$i rolls<br>";
                 $i++;
                 $sr++;
-            }} else echo "cut";
+            }} else echo "cut";$i++;
     }
 
     ?>
