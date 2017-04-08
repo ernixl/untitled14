@@ -87,8 +87,7 @@ Skillz");
     $s = 0;
     $m = 0;
     $sr = 0;
-    $i = 1;
-    $R = rand(0,2);
+    $R = (rand(0,2));
     for ($i = 1; $i <= 31; $i++)
         do {
             echo " $i specs <br>";
