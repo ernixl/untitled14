@@ -54,7 +54,7 @@ Skillz");
     <?php
     $x = 16;
 
-    while ($x < 16 ) {
+    while ($x <= 16 ) {
         echo "$x buy specs<br>";
         $x++;
     };
