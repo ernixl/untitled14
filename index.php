@@ -102,7 +102,7 @@ Skillz");
             echo "$i rolls<br>";
             $sr++;
             $i++;
-        } else echo "null<br>";
+        } else echo "$i null<br>";
         $i++;
 
 
