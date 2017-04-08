@@ -73,9 +73,9 @@ Skillz");
 
 <p>
     <?php
-    for ($i = 1; $i < 10; $i++) {
-        if ($i % 2 != 0) echo "$x specs are available<br>";
-        elseif ($i % 2 != 0) echo "$x specs are available<br>";
+    for ($i = 1; $i<31 ; $i++) {
+        if ($i % 2 != 0) echo "$i specs are available<br>";
+        elseif ($i % 2 != 0) echo "$i specs are available<br>";
 
     }
     ?>
