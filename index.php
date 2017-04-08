@@ -88,26 +88,7 @@ Skillz");
     $m = 1;
     $sr = 1;
     for ($i = 1; $i < 31; $i++)
-
-        if ($v = rand(0, 2) == 0) {
-            if ($s <= 7) {
-                echo "$i specs<br>";
-                $s++;
-                $i++;}}
-
-    elseif ($v = rand(0,2) == 1) {
-        if ($m <= 7) {
-            echo "$i mugs<br>";
-            $m++;
-            $i++;}}
-
-    elseif ($v = rand(0,2) == 2) {
-            if ($sr <= 7) {
-                echo "$i rolls<br>";
-                $sr++;
-                $i++;}
-
-    else echo "no more";}
+    echo "$i";
 
 
 
