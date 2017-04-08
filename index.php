@@ -70,25 +70,7 @@ Skillz");
 
     ?>
 </p>
-<P>
-    <?php
-    $x = 16;
 
-    while ($x <= 18) {
-        echo "$x buy specs<br>";
-        $x++;
-    };
-    while ($x <= 21) {
-        echo "$x buy mugs<br>";
-        $x++;
-    };
-    while ($x <= 18) {
-        echo "$x buy specs<br>";
-        $x++;
-    };
-
-    ?>
-</P>
 <p>
     <?php
     $i = 1;
