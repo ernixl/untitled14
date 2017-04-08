@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php thi</h1>
+<h1>Here is a webpage containing php thippp</h1>
 <p>
     <?php
     $x = 5;
@@ -56,6 +56,10 @@ Skillz");
 
     while ($x <= 18 ) {
         echo "$x buy specs<br>";
+        $x++;
+    };
+    while ($x <= 21 ) {
+        echo "$x buy mugs<br>";
         $x++;
     };
 
