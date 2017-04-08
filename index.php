@@ -92,20 +92,20 @@ Skillz");
         if ($v = rand(0, 2) == 0) {
             if ($s <= 7) {
                 echo "$i specs<br>";
-                $i++;
-                $s++;}}
+                $s++;
+                $i++;}}
 
     elseif ($v = rand(0,2) == 1) {
         if ($m <= 7) {
             echo "$i mugs<br>";
             $m++;
-            $s++;}}
+            $i++;}}
 
     elseif ($v = rand(0,2) == 2) {
             if ($sr <= 7) {
                 echo "$i rolls<br>";
                 $sr++;
-                $s++;}}
+                $i++;}}
 
 
 
