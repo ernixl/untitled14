@@ -93,7 +93,7 @@ Skillz");
     <?php
     for($i = 1; $i < 10; $i++)
     {
-    echo "<p>Hello!</p>";
+    echo "<p>$i Hello!</p>";
 }
 ?>
 </p>
