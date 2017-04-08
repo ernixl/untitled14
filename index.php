@@ -73,14 +73,14 @@ Skillz");
 
 <p>
     <?php
-    $i = 1;
-    while ($x <= 1) {
+    $v = 0;
+    while ($v <= 1) {
         echo "$x no products are available<br>";
-        $x++;
+        $v++;
     };
-    while ($x <= 31) {
+    while ($v <= 31) {
         echo "$x specs are available<br>";
-        $x += 2;
+        $v += 2;
     };
 
     ?>
