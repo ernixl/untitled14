@@ -92,7 +92,7 @@ Skillz");
         $z++;
 
     if ($s<6 and $z==0)
-        echo "specs";
+        echo $i;
 
 
 
