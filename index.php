@@ -87,7 +87,8 @@ Skillz");
 
     $days = array($i <= 31);
     foreach ($days as $value) {
-    echo "$value <br>";}
+        echo "$value <br>";
+    }
 
     ?>
 </p>
