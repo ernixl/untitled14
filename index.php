@@ -53,11 +53,11 @@ Skillz");
 <P>
     <?php
     $x = 1;
-    $x++;
+
     if ($x <= 7) {
-        echo "$x buy specs<br>";
+        echo "$x buy specs<br>"; $x++;
     } elseif ($x > 7 and $x <= 20) {
-        echo "$x buy bread";
+        echo "$x buy bread"; $x++;
     }
 
     ?>
