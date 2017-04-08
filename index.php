@@ -54,7 +54,7 @@ Skillz");
     <?php
     $x = 1;
     while ($x <= 30) {
-        echo "buy specs<br>";
+        echo "$x buy specs<br>";
         $x++;
     }
 
