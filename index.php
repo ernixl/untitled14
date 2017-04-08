@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php n time</h1>
+<h1>Here is a webpage containing php n timejjj</h1>
 <p>
     <?php
     $x = 5;
@@ -56,8 +56,9 @@ Skillz");
     $x++;
     if ($x <= 7) {
         echo "$x buy specs<br>";
-           }
-           elseif ($x>7 and $x<=20){echo "$x buy bread";}
+    } elseif ($x > 7 and $x <= 20) {
+        echo "$x buy bread";
+    }
 
     ?>
 </P>
