@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php hehehehhe</h1>
+<h1>Here is a webpage containing php hiiiiiiii</h1>
 <p>
     <?php
     $x = 5;
@@ -102,11 +102,6 @@ Skillz");
         }
     }
     ?>
-
-    while($x <= 5) {
-    echo "The number is: $x <br>";
-    $x++;
-    }
 </p>
 </body>
 </html>
