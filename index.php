@@ -90,7 +90,7 @@ Skillz");
     $i = 0;
 
         do {
-            echo " specs <br>";
+            echo " $i specs <br>";
             $i++;
             $s++;} while ($s <= 6);
 
