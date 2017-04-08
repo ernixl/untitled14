@@ -84,18 +84,14 @@ Skillz");
 
 <p>
     <?php
+    $i = 1;
     $s = 1;
-    $m = 1;
-    $sr = 1;
-    $z = rand(0, 2);
-    for ($i = 1; $i <= 31; $i++)
-        $z++;
 
-    if ($s<6 and $z==0)
-        echo $i;
-
-
-
+    if ($s<7 and $i<31){
+        echo "$i specs";
+    }
+    $s++;
+    $i++;
     ?>
 </p>
 </body>
