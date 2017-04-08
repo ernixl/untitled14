@@ -80,7 +80,7 @@ Skillz");
     };
     while ($x <= 31) {
         echo "$x specs are available<br>";
-        $x+=2;
+        $x += 2;
     };
 
     ?>
