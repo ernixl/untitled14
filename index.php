@@ -53,10 +53,11 @@ Skillz");
 <P>
     <?php
     $x = 1;
-    while ($x <= 30) {
+    $x++;
+    if ($x <= 7) {
         echo "$x buy specs<br>";
-        $x++;
-    }
+           }
+           elseif ($x>7 and $x<=20){echo "$x buy bread";}
 
     ?>
 </P>
