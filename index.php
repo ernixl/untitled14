@@ -94,6 +94,12 @@ Skillz");
     for ($i = 2; $i < 31; $i+=2) {
         echo "<p>$i Hello!</p>";
     }
+    for ($i = 3; $i < 31; $i+=3) {
+        echo "<p>$i Hello!</p>";
+    }
+    for ($i = 4; $i < 31; $i+=4) {
+        echo "<p>$i Hello!</p>";
+    }
     ?>
 </p>
 </body>
