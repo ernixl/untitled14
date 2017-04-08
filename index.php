@@ -84,11 +84,31 @@ Skillz");
 
 <p>
     <?php
+    $s = 1;
+    $m = 1;
+    $sr = 1;
+    for ($i = 1; $i < 31; $i++)
 
-    $days = array(1,2,3,4,5,31);
-    foreach ($days as $value) {
-        echo "$value <br>";
-    }
+        if ($v = rand(0, 2) == 0) {
+            if ($s <= 7) {
+                echo "$i specs<br>";
+                $i++;
+                $s++;
+            } elseif ($v = rand(0, 2) == 1) {
+                if ($m <= 7) {
+                    echo "$i mugs<br>";
+                    $m++;
+                    $s++;
+                } elseif ($v = rand(0, 2) == 2) {
+                    if ($sr <= 7) {
+                        echo "$i rolls<br>";
+                        $sr++;
+                        $s++;
+                    }
+                }
+            }
+        }
+
 
     ?>
 </p>
