@@ -73,9 +73,9 @@ Skillz");
 
 <p>
     <?php
-    for ($i = 0; $i<=31 ; $i++) {
-        if ($i==1) echo "$i no products are available<br>";
-        elseif ($i%4 ==0) echo "$i specs and sausage are available<br>";
+    for ($i = 0; $i <= 31; $i++) {
+        if ($i == 1) echo "$i no products are available<br>";
+        elseif ($i % 4 == 0) echo "$i specs and sausage are available<br>";
         elseif ($i % 3 == 0) echo "$i mugs are available<br>";
         elseif ($i % 2 == 0) echo "$i specs are available<br>";
     }
