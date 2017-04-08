@@ -99,13 +99,7 @@ Skillz");
             echo "$i mugs<br>";
             $m++;
             $i++;
-        } elseif ($sr < 4 and $v == 2) {
-            echo "$i rolls<br>";
-            $sr++;
-            $i++;
-        } else echo "$i";$i++;
-        }
-
+        } }
     ?>
 </p>
 </body>
