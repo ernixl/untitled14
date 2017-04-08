@@ -96,9 +96,9 @@ Skillz");
         echo "$x no products are available<br>";
         $x++;
     };
-    while ($x <= 31 and $x +=2) {
+    while ($x <= 31) {
         echo "$x specs are available<br>";
-        $x++;
+        $x+=2;
     };
 
     ?>
