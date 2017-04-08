@@ -110,8 +110,7 @@ Skillz");
                 $i++;
                 $sr++;
             } while ($sr <= 7);
-        } else echo "$i";
-        $i++;
+        } else echo "$i No more goods are available this month";
     }
 
     ?>
