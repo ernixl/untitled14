@@ -87,7 +87,7 @@ Skillz");
     $s = 0;
     $m = 0;
     $sr = 0;
-    $i = 0;
+    $i = 1;
 
         do {
             echo " $i specs <br>";
