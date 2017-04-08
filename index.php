@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php thippp</h1>
+<h1>Here is a webpage containing php thi</h1>
 <p>
     <?php
     $x = 5;
