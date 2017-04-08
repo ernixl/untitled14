@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php</h1>
+<h1>Here is a webpage containing php ttttttt</h1>
 <p>
     <?php
     $x = 5;
@@ -87,21 +87,24 @@ Skillz");
     $s = 0;
     $m = 0;
     $sr = 0;
-    $si = 1;
-    for ($i = 1; $i <= 31; $i++) {
-        while (rand(0, 2) == 0 and $s <= 6) {
-            echo "$i specs <br>";
-            $s++;$i++;
-        }
-        while (rand(0, 2) == 1 and $m <= 6) {
-            echo "$i mugs <br>";
-            $m++;$i++;
-        }
-        while (rand(0, 2) == 2 and $sr <= 6) {
-            echo "$i sausage rolls <br>";
-            $sr++;$i++;
-        }
+    $si = 0;
+
+    while (rand(0, 2) == 0 and $s <= 6 and $i <= 31) {
+        echo "$i specs <br>";
+        $s++;
+        $i++;
     }
+    while (rand(0, 2) == 1 and $m <= 6 and $i <= 31) {
+        echo "$i mugs <br>";
+        $m++;
+        $i++;
+    }
+    while (rand(0, 2) == 2 and $sr <= 6 and $i <= 31) {
+        echo "$i sausage rolls <br>";
+        $sr++;
+        $i++;
+    }
+
     ?>
 </p>
 </body>
