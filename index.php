@@ -85,7 +85,7 @@ Skillz");
 <p>
     <?php
 
-    $days = array($i <= 31);
+    $days = array(1,2,3,4,5,31);
     foreach ($days as $value) {
         echo "$value <br>";
     }
