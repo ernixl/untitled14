@@ -88,9 +88,9 @@ Skillz");
     $m = 1;
     $sr = 1;
 
-    for ($i = 1; $i <= 31; $R = rand(0, 9); $i++)
+    for ($i = 1; $i <= 31; $i++)
 
-        echo "$i $R<br>";
+        echo "$i rand(0,2);<br>";
 
     ?>
 </p>
