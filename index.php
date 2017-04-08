@@ -88,11 +88,15 @@ Skillz");
     $m = 0;
     $sr = 0;
     $i = 1;
-
+    $R = rand([0],[2]);
+for ($i = 1; $i <= 31; $i++)
         do {
             echo " $i specs <br>";
             $i++;
-            $s++;} while ($s <= 6);
+            $s++;} while ($s <= 6 and $R==0 );
+
+
+
 
 
     ?>
