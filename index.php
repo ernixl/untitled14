@@ -90,7 +90,7 @@ Skillz");
 
     for ($i = 1; $i <= 31; $i++)
 
-        echo "$i (rand(0,2));<br>";
+        echo "$i echo(rand(10,100));<br>";
 
     ?>
 </p>
