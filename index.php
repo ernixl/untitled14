@@ -57,7 +57,7 @@ Skillz");
     while ($x <= 7) {
         echo "$x buy specs<br>"; $x++;
     }; while ($x > 7 and $x <= 20) {
-        echo "$x buy bread"; $x++;
+        echo "$x buy bread<br>"; $x++;
     }
 
     ?>
