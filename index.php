@@ -50,16 +50,40 @@ Skillz");
     }
     ?>
 </p>
+<p>
+    <?php
+
+    $wantedgoods = "specs";
+    switch ($wantedgoods) {
+        case specs:
+            echo "1 sad hobbit";
+            break;
+        case mugs:
+            echo "2 happy hobbits";
+            break;
+        case sausage:
+            echo "3 hobbits are a crowd";
+            break;
+        default:
+            echo "All the hobbits have gone home";
+    }
+
+    ?>
+</p>
 <P>
     <?php
     $x = 16;
 
-    while ($x <= 18 ) {
+    while ($x <= 18) {
         echo "$x buy specs<br>";
         $x++;
     };
-    while ($x <= 21 ) {
+    while ($x <= 21) {
         echo "$x buy mugs<br>";
+        $x++;
+    };
+    while ($x <= 18) {
+        echo "$x buy specs<br>";
         $x++;
     };
 
