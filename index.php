@@ -86,16 +86,24 @@ Skillz");
     <?php
     $i = 1;
     $s = 1;
+    $m = 1;
+    $sr = 1;
     while ($i < 31) {
         $v = (rand(0, 2));
-        if ($v == 0) {
+        if ($s < 7 and $v == 0) {
             echo "$i spec<br>";
             $s++;
             $i++;
-        }elseif ($v==1){echo "$i mugs<br>";$s++;
-            $i++;}
-        elseif ($v==2){echo "$i rolls<br>";$s++;
-            $i++;}
+        } elseif ($m < 7 and $v == 1) {
+            echo "$i mugs<br>";
+            $m++;
+            $i++;
+        } elseif ($sr < 7 and $v == 2) {
+            echo "$i rolls<br>";
+            $sr++;
+            $i++;
+        }else echo "null";$i++;
+
 
     }
     ?>
