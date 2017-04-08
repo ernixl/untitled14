@@ -87,10 +87,14 @@ Skillz");
     $s = 1;
     $m = 1;
     $sr = 1;
-
+    $z = rand(0, 2);
     for ($i = 1; $i <= 31; $i++)
+        $z++;
 
-        echo "on the $i day". (rand(0, 2) . "<br>");
+    if ($s<6 and $z==0)
+        echo "specs";
+
+
 
     ?>
 </p>
