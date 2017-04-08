@@ -92,8 +92,10 @@ Skillz");
             echo "spec<br>";
             $s++;
             $i++;
-        }elseif ($v==1){echo "mugs<br>";}
-        elseif ($v==2){echo "rolls<br>";}
+        }elseif ($v==1){echo "mugs<br>";$s++;
+            $i++;}
+        elseif ($v==2){echo "rolls<br>";$s++;
+            $i++;}
 
     }
     ?>
