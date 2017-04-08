@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php</h1>
+<h1>Here is a webpage containing php mmmm</h1>
 <p>
     <?php
     $x = 5;
@@ -80,15 +80,15 @@ Skillz");
     };
     while ($v <= 31) {
         echo "$v specs are available<br>";
-        $v += 2;
+        $v+=2;
     };
     while ($v <= 31) {
         echo "$v mugs are available<br>";
-        $v += 3;
+        $v+=3;
     };
     while ($v <= 31) {
         echo "$v specs and sausage rolls are available<br>";
-        $v += 4;
+        $v+=4;
     };
     ?>
 </p>
