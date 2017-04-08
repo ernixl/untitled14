@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php nay </h1>
+<h1>Here is a webpage containing php nay lllllllllllllllpppppp</h1>
 <p>
     <?php
     $x = 5;
@@ -90,7 +90,7 @@ Skillz");
 
     for ($i = 1; $i <= 31; $i++)
 
-        echo "$i echo(rand(10,100));<br>";
+        echo ($i.rand(0,2)."<br>");
 
     ?>
 </p>
