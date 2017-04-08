@@ -82,7 +82,14 @@ Skillz");
         echo "$v specs are available<br>";
         $v += 2;
     };
-
+    while ($v <= 31) {
+        echo "$v mugs are available<br>";
+        $v += 3;
+    };
+    while ($v <= 31) {
+        echo "$v specs and sausage rolls are available<br>";
+        $v += 4;
+    };
     ?>
 </p>
 </body>
