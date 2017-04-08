@@ -90,15 +90,15 @@ Skillz");
     $sr = 1;
     while ($i < 31) {
         $v = (rand(0, 2));
-        if ($s < 7 and $v == 0) {
+        if ($s < 4 and $v == 0) {
             echo "$i spec<br>";
             $s++;
             $i++;
-        } elseif ($m < 7 and $v == 1) {
+        } elseif ($m < 4 and $v == 1) {
             echo "$i mugs<br>";
             $m++;
             $i++;
-        } elseif ($sr < 7 and $v == 2) {
+        } elseif ($sr < 4 and $v == 2) {
             echo "$i rolls<br>";
             $sr++;
             $i++;
