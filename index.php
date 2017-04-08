@@ -88,11 +88,12 @@ Skillz");
     $s = 1;
     while ($i < 31) {
         $v = (rand(0, 2));
-        if ($v == 0 and $s < 6) {
+        if ($v == 0) {
             echo "spec";
             $s++;
             $i++;
-        }
+        }elseif ($v==1){echo "mugs";}
+        elseif ($v==2){echo "rolls";}
 
     }
     ?>
