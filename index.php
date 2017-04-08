@@ -85,8 +85,8 @@ Skillz");
 <p>
     <?php
 
-    if (rand(0,2)==0)echo "specs";
-    elseif (rand(0,2)==1)echo "mugs";
+    if (rand(0, 2) == 0) echo "specs";
+    elseif (rand(0, 2) == 1) echo "mugs";
     else echo "sausages";
     ?>
 </p>
