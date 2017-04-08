@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php lllllllll</h1>
+<h1>Here is a webpage containing php</h1>
 <p>
     <?php
     $x = 5;
@@ -84,11 +84,10 @@ Skillz");
 
 <p>
     <?php
-    $mugs = 1;
-    $specs = 2;
-    $rolls = 0;
 
-    echo(rand(0, 2));
+    if (rand(0,2)==0)echo "specs";
+    elseif (rand(0,2)==1)echo "mugs";
+    else echo "sausages";
     ?>
 </p>
 </body>
