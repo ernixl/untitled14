@@ -92,19 +92,26 @@ Skillz");
 
     while ($i <= 31) {
         $v = (rand(0, 2));
-        if ($v == 0 and $s <= 7) {
-            echo "$i specs<br>";
-            $i++;
-            $s++;
-        } elseif ($v == 1 and $m <= 7) {
-            echo "$i mugs<br>";
-            $i++;
-            $m++;
-        } elseif ($v == 2 and $sr <= 7) {
-            echo "$i rolls<br>";
-            $i++;
-            $sr++;
-        }
+        if ($v == 0) {
+            do {
+                echo "$i specs<br>";
+                $i++;
+                $s++;
+            } while ($s <= 7);
+        } elseif ($v == 1) {
+            do {
+                echo "$i mugs<br>";
+                $i++;
+                $m++;
+            } while ($m <= 7);
+        } elseif ($v == 2) {
+            do {
+                echo "$i rolls<br>";
+                $i++;
+                $sr++;
+            } while ($sr <= 7);
+        } else echo "$i";
+        $i++;
     }
 
     ?>
