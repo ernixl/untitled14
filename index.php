@@ -73,23 +73,11 @@ Skillz");
 
 <p>
     <?php
-    $v = 1;
-    while ($v <= 1) {
-        echo "$v no products are available<br>";
-        $v++;
-    };
-    while ($v <= 31) {
-        echo "$v specs are available<br>";
-        $v+=2;
-    };
-    while ($v <= 31) {
-        echo "$v mugs are available<br>";
-        $v+=3;
-    };
-    while ($v <= 31) {
-        echo "$v specs and sausage rolls are available<br>";
-        $v+=4;
-    };
+    for ($i = 1; $i < 10; $i++) {
+        if ($i % 2 != 0) echo "$x specs are available<br>";
+        elseif ($i % 2 != 0) echo "$x specs are available<br>";
+
+    }
     ?>
 </p>
 </body>
