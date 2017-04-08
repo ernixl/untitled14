@@ -103,12 +103,9 @@ Skillz");
             echo "$i rolls<br>";
             $sr++;
             $i++;
-        } elseif ($n < 9) {
-            echo "$i<br>";
-            $n++;
-            $i++;
+        } else echo "$i";$i++;
         }
-    }
+
     ?>
 </p>
 </body>
