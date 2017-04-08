@@ -94,8 +94,7 @@ Skillz");
     $i < 31;
     if ($i = 1) {
         echo "<p>$i no products are available!</p>";
-    }
-    elseif ($i = 2 and $i += 2){
+    } elseif ($i = 2 and $i += 2) {
         echo "<p>$i specs are available!</p>";
     }
 
