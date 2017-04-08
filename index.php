@@ -54,11 +54,17 @@ Skillz");
     <?php
     $x = 16;
 
-    while ($x > 16 and $x <=18) {
-        echo "$x buy specs<br>"; $x++;
-    }; while ($x > 18 and $x <= 21) {
-        echo "$x buy mugs<br>"; $x++;
-    }while ($x > 21){echo " buy sausage rolls";}
+    while ($x > 16 and $x <= 18) {
+        echo "$x buy specs<br>";
+        $x++;
+    };
+    while ($x > 18 and $x <= 21) {
+        echo "$x buy mugs<br>";
+        $x++;
+    };
+    while ($x > 21) {
+        echo " buy sausage rolls";
+    }
 
     ?>
 </P>
