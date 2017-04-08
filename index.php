@@ -105,7 +105,12 @@ Skillz");
             if ($sr <= 7) {
                 echo "$i rolls<br>";
                 $sr++;
-                $i++;}}
+                $i++;}
+
+    else echo "no more";}
+
+
+
 
 
 
