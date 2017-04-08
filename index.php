@@ -86,7 +86,7 @@ Skillz");
     <?php
     $i = 1;
     $s = 1;
-    while ($i < 31){$v = (rand(0,2)); echo "$i.$v";}
+    while ($i < 31){$v = (rand(0,2)); echo "$i.$v<br>";}
 
 
     ?>
