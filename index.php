@@ -52,13 +52,13 @@ Skillz");
 </p>
 <P>
     <?php
-    $x = 1;
+    $x = 16;
 
-    while ($x <= 7) {
+    while ($x > 16 and $x <=18) {
         echo "$x buy specs<br>"; $x++;
-    }; while ($x > 7 and $x <= 20) {
-        echo "$x buy bread<br>"; $x++;
-    }
+    }; while ($x > 18 and $x <= 21) {
+        echo "$x buy mugs<br>"; $x++;
+    }while ($x > 21){echo " buy sausage rolls";}
 
     ?>
 </P>
