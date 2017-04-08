@@ -91,18 +91,14 @@ Skillz");
 </P>
 <p>
     <?php
-    for ($i = 1; $i < 2; $i++) {
+    $i < 31;
+    if ($i = 1) {
         echo "<p>$i no products are available!</p>";
     }
-    for ($i = 2; $i < 31; $i += 2) {
+    elseif ($i = 2 and $i += 2){
         echo "<p>$i specs are available!</p>";
     }
-    for ($i = 3; $i < 31; $i += 3) {
-        echo "<p>$i mugs are available!</p>";
-    }
-    for ($i = 4; $i < 31; $i += 4) {
-        echo "<p>$i sausages are available!</p>";
-    }
+
     ?>
 </p>
 </body>
