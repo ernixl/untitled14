@@ -84,11 +84,29 @@ Skillz");
 
 <p>
     <?php
-
-    if (rand(0, 2) == 0) echo "specs";
-    elseif (rand(0, 2) == 1) echo "mugs";
-    else echo "sausages";
+    $s = 0;
+    $m = 0;
+    $sr = 0;
+    for ($i = 1; $i <= 31; $i++) {
+        while (rand(0, 2) == 0 and $s <= 7) {
+            echo "$i specs";
+            $s++;
+        }
+        while (rand(0, 2) == 1 and $m <= 7) {
+            echo "$i mugs";
+            $m++;
+        }
+        while (rand(0, 2) == 2 and $sr <= 7) {
+            echo "$i mugs";
+            $sr++;
+        }
+    }
     ?>
+
+    while($x <= 5) {
+    echo "The number is: $x <br>";
+    $x++;
+    }
 </p>
 </body>
 </html>
