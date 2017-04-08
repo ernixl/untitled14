@@ -93,7 +93,6 @@ Skillz");
             if ($s <= 7) {
                 echo "$i specs<br>";
                 $i++;
-                $s++;
             } elseif ($v = rand(0, 2) == 1) {
                 if ($m <= 7) {
                     echo "$i mugs<br>";
