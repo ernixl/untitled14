@@ -92,7 +92,7 @@ Skillz");
     while ($i <= 31 )
 
     {if ($s<=6 and (rand(0,2))==0)
-        echo "$i specs <br>";
+        echo " specs <br>";
         $s++;
         $i++;
     }
