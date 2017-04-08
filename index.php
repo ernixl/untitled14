@@ -40,7 +40,13 @@ Skillz");
     <input type="text" placeholder="Last Name" name="lastname">
     <input type="submit" value="Go">
 </form>
-
+<p>
+    <?
+    $t = date("D");
+    if ($t<10){echo "buy bread";}
+    else{echo "forget it";}
+    ?>
+</p>
 
 </body>
 </html>
