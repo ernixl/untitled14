@@ -91,11 +91,11 @@ Skillz");
     $n = 1;
     while ($i < 31) {
         $v = (rand(0, 2));
-        if ($s < 4 and $v == 0) {
+        if ($s <$v == 0) {
             echo "$i spec<br>";
             $s++;
             $i++;
-        } elseif ($m < 4 and $v == 1) {
+        } elseif ( $v == 1) {
             echo "$i mugs<br>";
             $m++;
             $i++;
