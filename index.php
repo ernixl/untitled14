@@ -42,8 +42,8 @@ Skillz");
 </form>
 <p>
     <?
-    $t = date("D");
-    if ($t<10){echo "buy bread";}
+    $t = date("H");
+    if ($t<10){echo "buy tea";}
     else{echo "forget it";}
     ?>
 </p>
