@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php ttttttt</h1>
+<h1>Here is a webpage containing php</h1>
 <p>
     <?php
     $x = 5;
@@ -87,7 +87,7 @@ Skillz");
     $s = 0;
     $m = 0;
     $sr = 0;
-    $si = 0;
+    $i = 0;
 
     while (rand(0, 2) == 0 and $s <= 6 and $i <= 31) {
         echo "$i specs <br>";
