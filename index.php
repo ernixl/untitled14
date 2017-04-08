@@ -88,15 +88,15 @@ Skillz");
     $m = 0;
     $sr = 0;
     for ($i = 1; $i <= 31; $i++) {
-        while (rand(0, 2) == 0 and $s <= 7) {
+        while (rand(0, 2) == 0 and $s <= 6) {
             echo "$i specs <br>";
             $s++;
         }
-        while (rand(0, 2) == 1 and $m <= 7) {
+        while (rand(0, 2) == 1 and $m <= 6) {
             echo "$i mugs <br>";
             $m++;
         }
-        while (rand(0, 2) == 2 and $sr <= 7) {
+        while (rand(0, 2) == 2 and $sr <= 6) {
             echo "$i sausage rolls <br>";
             $sr++;
         }
