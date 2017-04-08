@@ -88,7 +88,7 @@ Skillz");
     $specs = 2;
     $rolls = 0;
 
-   echo (rand(0,2));
+    echo(rand(0, 2));
     ?>
 </p>
 </body>
