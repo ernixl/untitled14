@@ -58,10 +58,7 @@ Skillz");
         echo "$x buy specs<br>";
         $x++;
     };
-    while ($x > 18 and $x <= 21) {
-        echo "$x buy mugs<br>";
-        $x++;
-    };
+
     ?>
 </P>
 </body>
