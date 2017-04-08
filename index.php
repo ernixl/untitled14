@@ -88,7 +88,6 @@ Skillz");
     $s = 1;
     while ($i < 31) {
         $v = (rand(0, 2));
-        echo "$i.$v<br>";
         if ($v == 0 and $s < 6) {
             echo "spec";
             $s++;
