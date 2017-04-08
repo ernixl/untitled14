@@ -62,10 +62,6 @@ Skillz");
         echo "$x buy mugs<br>";
         $x++;
     };
-    while ($x > 21) {
-        echo " buy sausage rolls";
-    }
-
     ?>
 </P>
 </body>
