@@ -88,7 +88,7 @@ Skillz");
     $m = 1;
     $sr = 1;
     for ($i = 1; $i < 31; $i++)
-    echo "$i";
+    echo "$i<br>";
 
 
 
