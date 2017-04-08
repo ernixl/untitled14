@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php think</h1>
+<h1>Here is a webpage containing php thinkup</h1>
 <p>
     <?php
     $x = 5;
@@ -54,7 +54,7 @@ Skillz");
     <?php
     $x = 16;
 
-    while ($x <= 16 ) {
+    while ($x <= 18 ) {
         echo "$x buy specs<br>";
         $x++;
     };
