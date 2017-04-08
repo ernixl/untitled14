@@ -91,7 +91,7 @@ Skillz");
 </P>
 <p>
     <?php
-    for ($i = 1; $i < 31; $i++) {
+    for ($i = 1; $i < 2; $i++) {
         echo "<p>$i no products are available!</p>";
     }
     for ($i = 2; $i < 31; $i+=2) {
