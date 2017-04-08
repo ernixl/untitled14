@@ -89,13 +89,10 @@ Skillz");
     $sr = 0;
     $i = 0;
 
-    while ($i <= 31 )
-
-    {if ($s<=6 and (rand(0,2))==0)
-        echo " specs <br>";
-        $s++;
-        $i++;
-    }
+        do {
+            echo " specs <br>";
+            $i++;
+            $s++;} while ($s <= 6);
 
 
     ?>
