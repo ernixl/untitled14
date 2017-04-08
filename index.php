@@ -73,7 +73,7 @@ Skillz");
 
 <p>
     <?php
-    $v = 0;
+    $v = 1;
     while ($v <= 1) {
         echo "$v no products are available<br>";
         $v++;
