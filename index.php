@@ -91,12 +91,15 @@ Skillz");
 </P>
 <p>
     <?php
-    $i < 31;
-    if ($i = 1) {
-        echo "<p>$i no products are available!</p>";
-    } elseif ($i = 2 and $i += 2) {
-        echo "<p>$i specs are available!</p>";
-    }
+    $i = 1;
+    while ($x <= 1) {
+        echo "$x no products are available<br>";
+        $x++;
+    };
+    while ($x <= 31 and $x +=2) {
+        echo "$x specs are available<br>";
+        $x++;
+    };
 
     ?>
 </p>
