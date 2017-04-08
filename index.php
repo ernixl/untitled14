@@ -81,5 +81,11 @@ Skillz");
     }
     ?>
 </p>
+
+<p>
+    <?php
+    echo (rand([mugs],[specs],[rolls]))
+    ?>
+</p>
 </body>
 </html>
