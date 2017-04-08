@@ -42,11 +42,18 @@ Skillz");
 </form>
 <p>
     <?
-    $t = date("H");
+    $t = date("D");
     if ($t<10){echo "buy tea";}
     else{echo "forget it";}
     ?>
 </p>
+<P>
+    <?php
+    $x = 1;
+    while ($x<=30){echo "buy specs";
+$x++;}
 
+        ?>
+        </P>
 </body>
 </html>
