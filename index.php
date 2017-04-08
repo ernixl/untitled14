@@ -93,20 +93,20 @@ Skillz");
             if ($s <= 7) {
                 echo "$i specs<br>";
                 $i++;
-            } elseif ($v = rand(0, 2) == 1) {
-                if ($m <= 7) {
-                    echo "$i mugs<br>";
-                    $m++;
+                $s++;}}
 
-                } elseif ($v = rand(0, 2) == 2) {
-                    if ($sr <= 7) {
-                        echo "$i rolls<br>";
-                        $sr++;
+    elseif ($v = rand(0,2) == 1) {
+        if ($m <= 7) {
+            echo "$i mugs<br>";
+            $m++;
+            $s++;}}
 
-                    }
-                }
-            }
-        }
+    elseif ($v = rand(0,2) == 2) {
+            if ($sr <= 7) {
+                echo "$i rolls<br>";
+                $sr++;
+                $s++;}}
+
 
 
     ?>
