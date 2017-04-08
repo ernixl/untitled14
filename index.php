@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Here is a webpage containing php </h1>
+<h1>Here is a webpage containing php kkkkkkkk</h1>
 <p>
     <?php
     $x = 5;
@@ -88,6 +88,7 @@ Skillz");
     $s = 1;
     $m = 1;
     $sr = 1;
+    $n = 1;
     while ($i < 31) {
         $v = (rand(0, 2));
         if ($s < 4 and $v == 0) {
@@ -102,8 +103,8 @@ Skillz");
             echo "$i rolls<br>";
             $sr++;
             $i++;
-        } else echo "$i null<br>";
-        $i++;
+        } elseif ($n < 9){echo "$i null<br>";
+        $i++;}
 
 
     }
