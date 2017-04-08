@@ -86,12 +86,13 @@ Skillz");
     <?php
     $i = 1;
     $s = 1;
-
-    if ($s<7 and $i<31){
+    while ($i < 31 and $v = (rand(0, 2))){
+    if ($v == 0 and $s < 7) {
         echo "$i specs";
     }
     $s++;
-    $i++;
+    $i++; }
+
     ?>
 </p>
 </body>
